@@ -3,3 +3,46 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* Header */
+
+.price-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btns {
+    left: 0;
+}
+
+
+/* Plans */
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+.plan {
+    text-align: center;
+    min-width: 400px;
+    min-height: 1000px;
+    flex-basis: calc(100% / 2);
+    flex-shrink: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+
+
+
+/* Util */
+.white{
+    background-color: white;
+}
+.purple {
+    background-color: rgba(101, 0, 255);
+    color: white;
+}
+.round {
+    border-radius: 30px;
+}
+
